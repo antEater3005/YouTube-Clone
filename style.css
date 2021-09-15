@@ -131,9 +131,9 @@ body {
   color: white;
   border-color: #eee;
 }
-/* .category:last-child {
+.category:last-child {
   margin-right: 0px;
-} */
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -212,4 +212,21 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: #555;
   border-radius: 1rem;
+}
+.credits {
+  display: flex;
+  position: relative;
+  bottom: 1rem;
+  justify-content: center;
+  color: #606060;
+}
+.credits a {
+  color: #4e0303;
+  text-decoration: none;
+  font-weight: 700;
+  transition-duration: 150ms;
+}
+.credits a:hover {
+  color: #03334e;
+  text-shadow:.05rem .05rem  #ccc   ;
 }
