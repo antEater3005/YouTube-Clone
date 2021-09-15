@@ -166,6 +166,10 @@ body {
     transition: background-color 150ms;
    
 }
+#mic{
+ position: relative;
+ top: .14rem;
+}
 .voice-search:hover{
     background-color: hsla(0, 0%, 33%, 0.253);
 } 
@@ -182,4 +186,31 @@ body {
 }
 .search-btn:hover{
     background-color: #f0f0f0;
+}
+.menu-icons{
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.menu-icons a{
+  cursor: pointer;
+}
+.menu-channel-icon{
+  border-radius: 50%;
+  background-color: #aaa;
+  width: 36px;
+  height: 36px;
+}
+body::-webkit-scrollbar{
+  width: .5rem;
+
+}
+body::-webkit-scrollbar-track{
+  background: #f0f0f0;
+}
+body::-webkit-scrollbar-thumb{
+  background: #555;
+  border-radius: 1rem;
 }
