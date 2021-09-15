@@ -106,12 +106,9 @@ body {
 }
 .category-section {
   display: flex;
-  overflow:  scroll  ;
+  overflow: scroll;
 }
-.category-section{
-  
-}
-.category-section::-webkit-scrollbar{
+.category-section::-webkit-scrollbar {
   display: none;
 }
 .category {
@@ -145,78 +142,74 @@ body {
 }
 .yt-logo {
   height: 20px;
-} 
+}
 
 .search-bar {
   display: flex;
   flex-grow: 1;
   margin: 0 2rem 0 4rem;
- 
 }
-#search  {
+#search {
   width: 50%;
   font-size: inherit;
-  padding: .4em;
+  padding: 0.4em;
   border: 1px solid #777;
-  border-top-right-radius:0px;
- 
+  border-top-right-radius: 0px;
 }
-.voice-search{
-    display: flex;
-    justify-content: center;
-    margin-left: .7rem;
-    padding: .1rem;
-    width: 2.2rem;
-    border-radius: 400px  ;
-    border: 1px solid #555;
-    transition: background-color 150ms;
-   
+.voice-search {
+  display: flex;
+  justify-content: center;
+  margin-left: 0.7rem;
+  padding: 0.1rem;
+  width: 2.2rem;
+  border-radius: 400px;
+  border: 1px solid #555;
+  transition: background-color 150ms;
 }
-#mic{
- position: relative;
- top: .14rem;
+#mic {
+  position: relative;
+  top: 0.14rem;
 }
-.voice-search:hover{
-    background-color: hsla(0, 0%, 33%, 0.253);
-} 
-.search-btn{display: flex;
-    align-items: center;
-    padding: 0 1.25rem;
-    border: 1px solid #777;
-    background-color: #f8f8f8;
-    border-left: none;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    cursor: pointer;
-    transition: background-color 150ms;
+.voice-search:hover {
+  background-color: hsla(0, 0%, 33%, 0.253);
 }
-.search-btn:hover{
-    background-color: #f0f0f0;
+.search-btn {
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+  border: 1px solid #777;
+  background-color: #f8f8f8;
+  border-left: none;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  cursor: pointer;
+  transition: background-color 150ms;
 }
-.menu-icons{
+.search-btn:hover {
+  background-color: #f0f0f0;
+}
+.menu-icons {
   display: flex;
   width: 15%;
   align-items: center;
   justify-content: space-evenly;
-  
 }
-.menu-icons a{
+.menu-icons a {
   cursor: pointer;
 }
-.menu-channel-icon{
+.menu-channel-icon {
   border-radius: 50%;
   background-color: #aaa;
   width: 36px;
   height: 36px;
 }
-body::-webkit-scrollbar{
-  width: .5rem;
-
+body::-webkit-scrollbar {
+  width: 0.5rem;
 }
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   background: #f0f0f0;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background: #555;
   border-radius: 1rem;
 }
